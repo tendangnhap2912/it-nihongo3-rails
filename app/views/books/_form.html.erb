@@ -17,10 +17,15 @@
   </div>
 
   <div class="field">
-    <%= form.label :number_of_pages %>
-    <%= form.number_field :number_of_pages %>
+    <%= form.label :number_of_page %>
+    <%= form.number_field :number_of_page %>
   </div>
-
+  
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image %>
+  </div>
+      
   <div class="actions">
     <%= form.submit %>
   </div>
